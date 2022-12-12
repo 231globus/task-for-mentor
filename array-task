@@ -1,0 +1,7 @@
+// Очисти массив от нежелательных значений типа null, undefined
+const arr = [0, 1, false, 2, undefined, '', 3, null];
+alert(arr.filter(el => el))
+
+// Очисти массива от повторяющихся значений
+const arr = [1,2,3,1,2]
+alert(arr.filter( (el, index ) => arr.indexOf(el) === index ));
